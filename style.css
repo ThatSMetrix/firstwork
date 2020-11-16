@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 600px;
+    width: 1200px;
+    background: #dedede;
+    border-radius: 20px;
+    margin: calc(50vh - 300px) auto;
+    display: flex;
+    overflow: hidden;
+}
+.left {
+    width: 20%;
+}
+
+.right {
+    width: 80%;
+    background: pink;
+    border-radius: 20px 0 0 0;
+    display: flex;
+    padding: 50px;
+}
+
+.box {
+    width: calc(80% - 50px);
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.collum {
+    height: 225px;
+    width: 40%;
+    background: orange;
+    border-radius: 20px;
+}
+
+.card {
+    height: 500px;
+    width: 20%;
+    background: orange;
+    border-radius: 20px;
+}
+}
